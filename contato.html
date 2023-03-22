@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="horarios.html">Horário de atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="header">
+                <img src="imagens/contato.jpg">
+            </div>
+                <div class="content">
+                        <h1>
+                        Contato
+                        </h1>
+                        <fieldset title="Contatos" id="idFieldsetContatos">
+                            <legend>Contatos</legend>
+                            <div>
+                                <label>Telefone: <a href="tel:551133333333">(11) 3333-3333</a></label><br>
+                                <label>WhatsApp: <a href="http://wa.me/5511999999999">(11) 9999-9999</a></label>
+                            </div>      
+                            <div>
+                                <label>Email: <a href="mailto:contato@cvbv.com.br">contato@cvbv.com.br</a></label><br>
+                                <label>Instagram: <a href="http://instagram.com/clinicavetbelavista">@clinicavetbelavista</a></label>
+                            </div>
+                        </fieldset>
+                        <fieldset id="idFieldsetEndereco">
+                            <legend>Endereço</legend>
+                            <div id="idDivFieldsetEndereco">
+                                <label>
+                                    <label id="textoEndereco">Rua Conselheiro Ramalho, 86 - Bela Vista, São Paulo</label>
+                                </label>        
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4433998425598!2d-46.6450648!3d-23.552513599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b338558185%3A0xa8dbabc74566d273!2sR.%20Conselheiro%20Ramalho%2C%2086%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001325-000!5e0!3m2!1spt-BR!2sbr!4v1679444341365!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </fieldset>
+                        <fieldset title="Fale conosco">
+                            <legend>Fale conosco</legend>
+                            <div id="idFormulario">
+                                <form action="post">
+                                    <label for="nome">
+                                        Nome completo
+                                    </label>
+                                    <br>
+                                    <input id="nome" type="text" required />
+                                    <br>
+                                    <label id="email">
+                                        Email
+                                    </label>
+                                    <br>
+                                    <input id="email" type="email" required />
+                                    <br>
+                                    <label id="assunto">
+                                        Assunto
+                                    </label>
+                                    <br>
+                                    <input id="assunto" type="text" required />
+                                    <br>
+                                    <label>
+                                        Messagem
+                                    </label>
+                                    <br>
+                                    <textarea rows="10" cols="50" placeholder="Escreva sua mensagem aqui">
+                                    </textarea>
+                                    <br>
+                                    <button title="Enviar sua resposta" type="submit" onclick="alert('Obrigado por entrar em contato. Em breve responderemos.')">
+                                        Enviar
+                                    </button>
+                                    <button title="Apagar sua resposta" type="reset" onclick="alert('Campos resetados')">
+                                        Corrigir
+                                    </button>
+                                </form>
+                            </div>
+                        </fieldset>
+                </div>      
+                <div class="footer">
+                    <div>
+                        <label id="titleFooter">Contatos</label><br>
+                        <label>
+                            Telefone: 
+                            <a href="tel:551133333333">
+                                (11) 3333-3333
+                            </a>
+                        </label>
+                        <br>
+                        <label>
+                            WhatsApp: 
+                            <a href="http://wa.me/5511999999999">
+                                (11) 9999-9999
+                            </a>
+                        </label>
+                    </div>
+                    <div>
+                        <label id="titleFooter">
+                            Endereço
+                        </label>
+                        <br>
+                        <label>
+                            Rua Conselheiro Ramalho, 86
+                        </label>
+                        <br>
+                        <label>
+                            Bela Vista, São Paulo
+                        </label>
+                    </div>
+                </div>
+</body>
+</html>
